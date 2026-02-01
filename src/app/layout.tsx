@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://gauravshoots.com',
+    url: 'https://zealfx.vercel.app',
     siteName: 'ZEAL.FX',
     title: 'ZEAL.FX | Fashion, Product & Food Photography',
     description:
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     /* TODO: Replace with actual OG image */
     images: [
       {
-        url: '/assets/og-image.jpg',
+        url: '/assets/og-image.webp',
         width: 1200,
         height: 630,
         alt: 'ZEAL.FX - Professional Photography',
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     description:
       'Professional photography services for fashion, products, and food.',
     /* TODO: Replace with actual Twitter image */
-    images: ['/assets/og-image.jpg'],
+    images: ['/assets/og-image.webp'],
   },
   robots: {
     index: true,
