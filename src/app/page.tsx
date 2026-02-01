@@ -83,7 +83,7 @@ export default function HomePage() {
               Contact Us
             </h2>
             <p className="mt-4 text-lg tracking-wider text-amber-400">
-              Drop us a line!
+              Drop us a message!
             </p>
           </div>
 

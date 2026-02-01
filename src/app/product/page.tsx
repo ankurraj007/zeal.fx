@@ -24,13 +24,14 @@ const productPortfolio: PortfolioItem[] = [
         description: 'Professional commercial product photography.',
     },
     {
-        id: 'product-2',
+        id: 'product-4',
         title: '',
         category: '',
-        thumbnail: '/assets/portfolio/prod2.webp',
-        images: ['/assets/portfolio/prod2.webp'],
-        description: 'Brand identity product shots.',
+        thumbnail: '/assets/portfolio/prod4.webp',
+        images: ['/assets/portfolio/prod4.webp'],
+        description: 'Lifestyle product photography.',
     },
+
     {
         id: 'product-3',
         title: '',
@@ -40,13 +41,24 @@ const productPortfolio: PortfolioItem[] = [
         description: 'Clean e-commerce product photography.',
     },
     {
-        id: 'product-4',
+        id: 'product-6',
         title: '',
         category: '',
-        thumbnail: '/assets/portfolio/prod4.webp',
-        images: ['/assets/portfolio/prod4.webp'],
-        description: 'Lifestyle product photography.',
+        thumbnail: '/assets/portfolio/prod6.webp',
+        images: ['/assets/portfolio/prod6.webp'],
+        description: 'Professional studio product photography.',
     },
+    {
+        id: 'product-7',
+        title: '',
+        category: '',
+        thumbnail: '/assets/portfolio/prod7.webp',
+        images: [
+            '/assets/portfolio/prod7.webp'
+        ],
+        description: 'Professional commercial product photography.',
+    },
+
     {
         id: 'product-5',
         title: '',
@@ -56,13 +68,15 @@ const productPortfolio: PortfolioItem[] = [
         description: 'Product packaging photography.',
     },
     {
-        id: 'product-6',
+        id: 'product-2',
         title: '',
         category: '',
-        thumbnail: '/assets/portfolio/prod6.webp',
-        images: ['/assets/portfolio/prod6.webp'],
-        description: 'Professional studio product photography.',
+        thumbnail: '/assets/portfolio/prod2.webp',
+        images: ['/assets/portfolio/prod2.webp'],
+        description: 'Brand identity product shots.',
     },
+
+
 ];
 
 export default function ProductPage() {

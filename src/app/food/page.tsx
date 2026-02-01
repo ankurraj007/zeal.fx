@@ -7,10 +7,6 @@ export const metadata: Metadata = {
         'Food photography portfolio featuring culinary arts, restaurant menus, and beverage photography.',
 };
 
-/* 
- * TODO: Replace placeholder images with actual food portfolio images
- * Recommended sizes: 800x600px thumbnails, 1920x1280px full images
- */
 const foodPortfolio: PortfolioItem[] = [
     {
         id: 'food-1',
@@ -34,8 +30,8 @@ const foodPortfolio: PortfolioItem[] = [
         id: 'food-3',
         title: '',
         category: '',
-        thumbnail: '/assets/portfolio/food3.png',
-        images: ['/assets/portfolio/food3.png'],
+        thumbnail: '/assets/portfolio/food3.webp',
+        images: ['/assets/portfolio/food3.webp'],
         description: 'Artistic food photography showcasing gourmet dishes.',
     },
     {
@@ -45,6 +41,14 @@ const foodPortfolio: PortfolioItem[] = [
         thumbnail: '/assets/portfolio/food4.png',
         images: ['/assets/portfolio/food4.png'],
         description: 'Appetizing photography for restaurant menus.',
+    },
+    {
+        id: 'food-9',
+        title: '',
+        category: '',
+        thumbnail: '/assets/portfolio/food9.webp',
+        images: ['/assets/portfolio/food9.webp'],
+        description: 'Artistic food photography showcasing gourmet dishes.',
     },
     {
         id: 'food-5',
@@ -60,6 +64,26 @@ const foodPortfolio: PortfolioItem[] = [
         thumbnail: '/assets/portfolio/food6.webp',
         images: ['/assets/portfolio/food6.webp'],
         description: 'Appetizing photography for restaurant menus.',
+    },
+    {
+        id: 'food-7',
+        title: '',
+        category: '',
+        thumbnail: '/assets/portfolio/food7.webp',
+        images: [
+            '/assets/portfolio/food7.webp',
+        ],
+        description: 'Professional food photography for restaurants and culinary brands.',
+    },
+    {
+        id: 'food-8',
+        title: '',
+        category: '',
+        thumbnail: '/assets/portfolio/food8.webp',
+        images: [
+            '/assets/portfolio/food8.webp',
+        ],
+        description: 'Professional food photography for restaurants and culinary brands.',
     },
 ];
 

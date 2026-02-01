@@ -36,7 +36,7 @@ export default function Footer() {
                             {BRAND_NAME}
                         </h3>
                         <p className="mt-4 text-sm text-white/75">
-                            Professional photography services for fashion, products, and food.
+                            Professional photography, Videography and Editing services for fashion, products, and food.
                             Studio and outdoor shoots available.
                         </p>
                     </motion.div>

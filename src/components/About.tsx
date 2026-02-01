@@ -12,11 +12,11 @@ const OWNER_IMAGE = '/assets/owner.jpeg';
 const BLUR_DATA_URL = 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUH/8QAIhAAAQMDBAMBAAAAAAAAAAAAAQIDBAAFEQYSITEHE0FR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAZEQADAQEBAAAAAAAAAAAAAAAAAQIRITH/2gAMAwEAAhEDEEA/ANJ8fcltlFomMLlyZDAQH3lNOlLja8qUkpA4OMc/lKQvV0XUHBFQ0Y5+ClKYw5GP/9k=';
 
 /* TODO: Replace placeholder biography with actual content */
-const SHORT_BIO = `Born in 2003. Born for Photography.
-My love affair with the camera started a few years back. In 2024, my passion to shoot took me to the famed Asian academy of film and television where I sharpened my professional skills in photography.`;
+const SHORT_BIO = `Born in 2003.My love affair with the camera started a few years back. In 2024, my passion to shoot took me to the famed Asian Academy of Film and Television(AAFT), where I sharpened my professional skills in Photography and Cinematography.
+My work includes product, fashion, food, events, and travel photography, with a cinematic approach rooted in strong composition, lighting, and storytelling. I collaborate closely with clients to create visuals that are intentional, impactful, and aligned with their brand or vision.`;
 
-const FULL_BIO = `Born in 2003. Born for Photography.
-My love affair with the camera started a few years back. In 2024, my passion to shoot took me to the famed Asian academy of film and television where I sharpened my professional skills in photography. After that, I specialised in fashion, products and portraits. During this course, I conducted extensive Fashion shoots, Portraits and Product shoots, all the while experimenting with lights (studio and natural), colors, perspectives... and lots more.`;
+const FULL_BIO = `Born in 2003.My love affair with the camera started a few years back. In 2024, my passion to shoot took me to the famed Asian Academy of Film and Television(AAFT), where I sharpened my professional skills in Photography and Cinematography.
+My work includes product, fashion, food, events, and travel photography, with a cinematic approach rooted in strong composition, lighting, and storytelling. I collaborate closely with clients to create visuals that are intentional, impactful, and aligned with their brand or vision.`;
 
 export default function About() {
     const [isExpanded, setIsExpanded] = useState(false);
