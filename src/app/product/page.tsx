@@ -68,11 +68,11 @@ const productPortfolio: PortfolioItem[] = [
         description: 'Product packaging photography.',
     },
     {
-        id: 'product-2',
+        id: 'product-99',
         title: '',
         category: '',
-        thumbnail: '/assets/portfolio/prod2.webp',
-        images: ['/assets/portfolio/prod2.webp'],
+        thumbnail: '/assets/portfolio/prod99.webp',
+        images: ['/assets/portfolio/prod99.webp'],
         description: 'Brand identity product shots.',
     },
 

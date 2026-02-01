@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';
 import CookieBanner from '@/components/CookieBanner';
+import JsonLd from '@/components/JsonLd';
 import './globals.css';
 
 /* Optimized fonts with display swap for faster rendering */
@@ -27,15 +28,17 @@ export const metadata: Metadata = {
     template: '%s | ZEAL.FX',
   },
   description:
-    'Professional photography services for fashion, products, and food. Studio and outdoor shoots available. Based in Ranchi, Jharkhand, India.',
+    'ZEAL.FX offers professional product photography, food photography, and fashion shoots. Studio and outdoor photography services available in Ranchi, Jharkhand, India.',
   keywords: [
+    'zeal.fx',
     'photography',
     'fashion photography',
     'product photography',
     'food photography',
     'studio photography',
     'outdoor photography',
-    'Faridabad',
+    'Ranchi',
+    'Jharkhand',
     'India',
   ],
   authors: [{ name: 'ZEAL.FX' }],
@@ -70,8 +73,10 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  /* TODO: Update canonical URL for production */
-  metadataBase: new URL('https://gauravshoots.com'),
+  metadataBase: new URL('https://zealfx.vercel.app'),
+  alternates: {
+    canonical: 'https://zealfx.vercel.app',
+  },
 };
 
 export default function RootLayout({
@@ -81,6 +86,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
+      <head>
+        <JsonLd />
+      </head>
       <body className="min-h-screen bg-neutral-950 text-white antialiased">
         <Navbar />
         <main>{children}</main>
