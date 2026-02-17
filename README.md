@@ -1,12 +1,32 @@
 # Zeal.fx 🎨
 
 A modern, elegant portfolio website built with Next.js and TypeScript, showcasing creative work across fashion, products, and food categories.
+## 🌐 Live Website
+[https://zealfx.vercel.app](https://zealfx.vercel.app)
 
 ## 📖 Description
 
 **Zeal.fx** is a full-featured creative portfolio platform designed to showcase work in multiple categories. It features a sleek, responsive design with smooth animations and intuitive navigation. The platform includes portfolio galleries, project details with image carousels, contact functionality, and an inspirations section to keep creators inspired.
 
 Perfect for photographers, designers, creative directors, and anyone looking to build a stunning online presence.
+
+## 📸 Screenshot
+
+![Zeal.fx Portfolio Website](./image_2026-02-16_015406705.png)
+
+## 🚀 Features
+
+- **Multi-Category Portfolio**: Showcase work in Fashion, Product, and Food categories
+- **Project Galleries**: Beautiful grid layouts with project cards
+- **Lightbox Modal**: Image carousel with detailed project information
+- **Responsive Design**: Mobile-first approach, works seamlessly on all devices
+- **Smooth Animations**: Framer Motion-powered transitions and interactions
+- **Contact Form**: Full-featured contact form with validation
+- **Contact Information**: Display social links and contact details
+- **Sticky Navigation**: Always-accessible navigation bar
+- **Scroll-to-Top**: Convenient button to jump back to top
+- **Cookie Consent**: GDPR-compliant cookie banner
+- **SEO Optimized**: Open Graph metadata for social sharing
 
 ## 🛠️ Tech Stack
 
@@ -35,28 +55,6 @@ Perfect for photographers, designers, creative directors, and anyone looking to 
 
 ### Deployment
 - **Vercel** - Optimized Next.js hosting
-
-## 🌐 Live Website
-
-[https://zealfx.vercel.app](https://zealfx.vercel.app)
-
-## 📸 Screenshot
-
-![Zeal.fx Portfolio Website](./image_2026-02-16_015406705.png)
-
-## 🚀 Features
-
-- **Multi-Category Portfolio**: Showcase work in Fashion, Product, and Food categories
-- **Project Galleries**: Beautiful grid layouts with project cards
-- **Lightbox Modal**: Image carousel with detailed project information
-- **Responsive Design**: Mobile-first approach, works seamlessly on all devices
-- **Smooth Animations**: Framer Motion-powered transitions and interactions
-- **Contact Form**: Full-featured contact form with validation
-- **Contact Information**: Display social links and contact details
-- **Sticky Navigation**: Always-accessible navigation bar
-- **Scroll-to-Top**: Convenient button to jump back to top
-- **Cookie Consent**: GDPR-compliant cookie banner
-- **SEO Optimized**: Open Graph metadata for social sharing
 
 ## 📁 Project Structure
 
